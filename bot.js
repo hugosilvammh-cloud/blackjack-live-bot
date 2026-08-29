@@ -78,14 +78,9 @@ const server = http.createServer(async (req, res) => {
 
       res.end(`
         <h1>✅ YouTube autorizado!</h1>
-
         <p>O Google autorizou o Blackjack Live Bot.</p>
-
-        <p><strong>Agora precisamos guardar o Refresh Token no Render.</strong></p>
-
-        <p>Abra os logs do Render para encontrar o token.</p>
-
-        <p>⚠️ NÃO compartilhe esse token com ninguém.</p>
+        <p>Agora precisamos guardar o Refresh Token no Render.</p>
+        <p>Verifique os logs do Render.</p>
       `);
 
       if (tokens.refresh_token) {
