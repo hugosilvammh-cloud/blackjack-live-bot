@@ -1,0 +1,12 @@
+{
+  "name": "blackjack-live-bot",
+  "version": "1.0.0",
+  "description": "YouTube Live Blackjack chat bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "googleapis": "^159.0.0"
+  }
+}
